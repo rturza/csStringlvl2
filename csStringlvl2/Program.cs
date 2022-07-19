@@ -29,6 +29,11 @@ namespace csStringlvl2
             var names = fullName.Split(' ');
             Console.WriteLine("FirstName: " + names[0]);
             Console.WriteLine("LastName: " + names[1]);
+
+            //uses of replace
+            Console.WriteLine(fullName.Replace("Csharp", "C#"));
+
+
         }
     }
 }
