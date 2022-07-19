@@ -33,6 +33,12 @@ namespace csStringlvl2
             //uses of replace
             Console.WriteLine(fullName.Replace("Csharp", "C#"));
 
+            //string validation
+            if (String.IsNullOrEmpty(null))
+            {
+                Console.WriteLine("Invalid input...");
+            }
+
 
         }
     }
