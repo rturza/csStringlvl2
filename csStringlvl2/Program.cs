@@ -12,6 +12,10 @@ namespace csStringlvl2
         {
             var fullName = "Csharp Fundamentals ";
             Console.WriteLine("Trim: '{0}'",fullName.Trim()); //removes extra spaces from text
+
+            //removes spaces + makes Uppercase all texts
+            Console.WriteLine("ToUpper: '{0}'",fullName.Trim().ToUpper()); 
+
         }
     }
 }
