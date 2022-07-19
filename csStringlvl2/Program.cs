@@ -36,10 +36,19 @@ namespace csStringlvl2
             //string validation
             if (String.IsNullOrEmpty(null))
             {
-                Console.WriteLine("Invalid input...");
+                Console.WriteLine("Invalid input...1");
             }
 
-
+            //putting space still unable to validate
+            if (String.IsNullOrEmpty(" "))
+            {
+                Console.WriteLine("Invalid input...2");//couldn't able to show
+            }
+            //toValidate this:
+            if (String.IsNullOrWhiteSpace(" "))
+            {
+                Console.WriteLine("Invalid input...3");
+            }
         }
     }
 }
