@@ -49,6 +49,15 @@ namespace csStringlvl2
             {
                 Console.WriteLine("Invalid input...3");
             }
+
+            //string conversion
+            var str = "25";
+            var age = Convert.ToByte(str);
+            Console.WriteLine(age);
+
+            //float to string
+            float price = 29.95f;
+            Console.WriteLine(price.ToString("C0"));
         }
     }
 }
